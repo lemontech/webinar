@@ -30,7 +30,7 @@ $(document).ready(function(){
         targetDate: {
             'day':      01,
             'month':    01,
-            'year':     2016,
+            'year':     2017,
             'hour':     00,
             'min':      00,
             'sec':      01,
