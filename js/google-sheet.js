@@ -26,8 +26,8 @@ $("#foo").submit(function(event){
     request = $.ajax({
         url: "https://script.google.com/a/macros/lemontech.com.br/s/AKfycbwqNr7iPoWbEs7oUqcZATfYZK2CyHZ6u6BxbGkmrWjdi1v3CaHt/exec",
         type: "post",
-        data: serializedData
-        headers: { 'Access-Control-Allow-Origin': '*' }
+        data: serializedData;
+        headers: { "Access-Control-Allow-Origin" : "*" }
     });
 
     // Callback handler that will be called on success
