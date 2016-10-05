@@ -27,7 +27,7 @@ $("#foo").submit(function(event){
         url: "https://script.google.com/a/macros/lemontech.com.br/s/AKfycbwqNr7iPoWbEs7oUqcZATfYZK2CyHZ6u6BxbGkmrWjdi1v3CaHt/exec",
         type: "post",
         data: serializedData
-        headers: { 'x-my-custom-header': 'some value' }
+        headers: { 'Access-Control-Allow-Origin': '*' }
     });
 
     // Callback handler that will be called on success
