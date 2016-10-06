@@ -10,11 +10,11 @@ $(document).ready(function(){
     )
     wow.init();
 
-    // $('#top-nav').onePageNav({
-      //  currentClass: 'current',
-      // changeHash: true,
-      //scrollSpeed: 1200
-  //  })
+    $('#top-nav').onePageNav({
+        currentClass: 'current',
+        changeHash: true,
+        scrollSpeed: 1200
+    })
      
     //animated header class
     $(window).scroll(function () {
