@@ -28,6 +28,8 @@ $("#foo").submit(function(event){
         type: "post",
         data: serializedData,
         headers: { "Access-Control-Allow-Origin" : "true" }
+        header('Access-Control-Allow-Origin: *');
+        header('Access-Control-Allow-Methods: GET, POST, PUT');
     });
 
     // Callback handler that will be called on success
