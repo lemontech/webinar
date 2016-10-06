@@ -18,14 +18,10 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/main.css">
-     
-    <!-- Responsive Stylesheet -->
-   
+        <!-- Responsive Stylesheet -->
         <link rel="stylesheet" href="css/responsive.css">
-   
     </head>
 
     <body id="body">
@@ -62,11 +58,8 @@
    
                 <nav class="collapse navbar-collapse" id="navbar">
                     <ul class="nav navbar-nav navbar-right" id="top-nav">
-                        <li class="hero-area"><a href="#body">Inicio</a></li>
-   
-    <!--  <li><a href="#sobre">Sobre Webnar</a></li> -->
-    
-                        <li><a href="#cadastro">Cadastre-se</a></li>
+                        <li class="hero-area"><a href="#body">Inicio</a></li>     
+                        <li><a href="#contact">Cadastre-se</a></li>
                     </ul>
                 </nav><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -124,49 +117,44 @@
                 </div><!-- .row close -->
             </div><!-- .container close -->
         </section><!-- header close -->
-           
+  
+       
     <!-- Contact start -->
 
-        <section id="cadastro" class="section">
+        <section id="contact" class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="block">
                             <div class="heading wow fadeInUp">
-                                <h2>Cadastro</h2>
-                                <p>Realize o seu cadastro e garanta seu lugar em nosso Webinar</p>
+                                <h2>Cadastro no Webinar</h2>
+                                <p>Preciso pensar em um texto para colocar aqui</p>
+                            </div>
+                        
+                    <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="form-group">
+                            <form action="https://getsimpleform.com/messages?form_api_token=372e3f916325c90dcc83c8cd405035f3" method="post" id="contact-form">
+                            <input type='hidden' name='redirect_to' value='http://lemontech.com.br' />
+                                <div class="input-field">
+                                    <input type="text" class="form-control" placeholder="Nome" name="Nome">
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" class="form-control" placeholder="Email" name="Email">
+                                </div>
+                                <button class="btn btn-default btn-submit" type="submit" onclick="return validar()">Eu vou participar</button>
+                            </form>
+
                             </div>
                         </div>
                     </div>
-
-                  
-    <!-- Contact Form - sent to a Google Sheet -->
-
-                <div class="col-xs-6 col-xs-offset-3" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                     <div class="form-group">
-
-                           <form action="https://getsimpleform.com/messages?form_api_token=372e3f916325c90dcc83c8cd405035f3" method="post">
-                              <input type='hidden' name='redirect_to' value='http://lemontech.com.br' />
-                              <p>
-                                <label>Nome</label>
-                                <input id='name' name='name' type='text'>
-                              </p><p>
-                                <label>Email</label>
-                                <input id='email' name='email' type='email'>
-                              </p><p>     
-                              </p>
-                                <div id='success'></div>
-                                <button>Send</button>
-                            </form>
-                    </div>
                 </div>
             </div>
-        </div>        
-          
-    <!-- Contact Form - sent to a Google Sheet -->                         
-          
-        <section clas="wow fadeInUp">
-            <div class="map-wrapper"> </div>
+        </section>
+
+        <section>
+             <class="wow fadeInUp">
+             <class="map-wrapper">
+
         </section>
 
     <!-- Footer -->
@@ -187,7 +175,6 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script src="js/jquery.lwtCountdown-1.0.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
@@ -197,8 +184,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/google-sheet.js"></script>  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>     
-    
+        <script src="js/linkedin.js"></script>
+        <script src="js/validar.js"></script>
     </body>
 </html>

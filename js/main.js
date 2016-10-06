@@ -10,11 +10,12 @@ $(document).ready(function(){
     )
     wow.init();
 
-    $('#top-nav').onePageNav({
+     $('#top-nav').onePageNav({
         currentClass: 'current',
         changeHash: true,
         scrollSpeed: 1200
-    })
+    });
+
      
     //animated header class
     $(window).scroll(function () {
@@ -27,12 +28,12 @@ $(document).ready(function(){
 
     $('#countdown_dashboard').countDown({
         targetDate: {
-            'day':      01,
-            'month':    01,
+            'day':      30,
+            'month':    12,
             'year':     2017,
-            'hour':     00,
-            'min':      00,
-            'sec':      01,
+            'hour':     23,
+            'min':      59,
+            'sec':      59,
         },
         omitWeeks: true
     });

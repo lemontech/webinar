@@ -79,7 +79,7 @@ a:active {
 .heading {
     text-align: center;
     color: #777777;
-    padding-bottom: 7px;
+    padding-bottom: 70px;
 }
 .heading h2 {
     color: #3c3c3c;
@@ -463,7 +463,7 @@ a:active {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     height: 2px;
     background: #fff;
