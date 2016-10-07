@@ -22,7 +22,7 @@ function validar() {
 
     var nomecomposto = document.getElementById("nomeid");
     if (nome.value != "") {
-        alert('Ei' + nome + ' já anota na sua agênda, porque os seus dados foram encaminhados com sucesso');
+        alert('Ei ' + nome + ' já anota na sua agênda, porque os seus dados foram encaminhados com sucesso');
     }
     window.location="http:/lemontech.com.br";
 }
