@@ -84,7 +84,7 @@ a:active {
 .heading h2 {
     color: #3c3c3c;
     padding-bottom: 30px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     font-weight: 300;
     font-size: 40px;
     line-height: 40px;
