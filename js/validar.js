@@ -1,28 +1,29 @@
 function validar() {
-var nome = form1.nome.value;
-var email = form1.email.value;
+    var nome = $("#nome").val();
+    var email = $("#email").val();
 
-if (nome == "") {
-alert('Preencha o campo com seu nome');
-form1.nome.focus();
-return false;
-}
+    if (nome == "") {
+        alert('Preencha o campo com seu nome');
+        nome.focus();
+        return false;
+    }
 
-if (nome.length < 5) {
-alert('Digite seu nome completo');
-form1.nome.focus();
-return false;
-}
+    if (nome.length < 5) {
+        alert('Digite seu nome completo');
+        nome.focus();
+        return false;
+    }
 
-if (email == "") {
-alert('Preencha o campo com seu email');
-form1.email.focus();
-return false;
-}
+    if (email == "") {
+        alert('Preencha o campo com seu email');
+        email.focus();
+        return false;
+    }
 
-var nome = document.getElementById("nomeid");
-  if (nome.value != "") {
-    alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
-  } 
+    var nomecomposto = document.getElementById("nomeid");
+    if (nome.value != "") {
+        alert('Agora   ' + nome + ' os seus dados foram encaminhados com sucesso');
+    }
+    window.location="http:/lemontech.com.br";
 }
 
