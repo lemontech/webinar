@@ -28,8 +28,8 @@ $(document).ready(function(){
 
     $('#countdown_dashboard').countDown({
         targetDate: {
-            'day':      20,
-            'month':    12,
+            'day':      24,
+            'month':    11,
             'year':     2016,
             'hour':     23,
             'min':      59,
