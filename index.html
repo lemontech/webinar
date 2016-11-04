@@ -20,7 +20,9 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/main.css">
-        <!-- Responsive Stylesheet -->
+
+    <!-- Responsive Stylesheet -->
+
         <link rel="stylesheet" href="css/responsive.css">
     </head>
 
@@ -59,7 +61,7 @@
                 <nav class="collapse navbar-collapse" id="navbar">
                     <ul class="nav navbar-nav navbar-right" id="top-nav">
                         <li class="hero-area"><a href="#body">Inicio</a></li>     
-                        <li><a href="#contact">Cadastre-se</a></li>
+                        <li><a href="#contact">Registre-se</a></li>
                     </ul>
                 </nav><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -117,38 +119,61 @@
             </div><!-- .container close -->
         </section><!-- header close -->
   
-       
-    <!-- Contact start -->
+    <!-- Begin MailChimp Signup Form -->
 
-        <section id="contact" class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="block">
-                                    <div class="heading wow fadeInUp">
-                                        <h2>Cadastro no Webinar</h2>
-                                        <p>Preciso pensar em um texto para colocar aqui</p>
-                                    </div>
+       <section id="contact" class="section">
+           <div class="container">
+               <div class="row">
+                   <div class="col-xs-12 col-sm-12 col-md-12">
+                       <div class="block">
+                           <div class="heading wow fadeInUp">
+                               <div class="form-group">
 
-                        <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="form-group">
-                                <form action="https://getsimpleform.com/messages?form_api_token=372e3f916325c90dcc83c8cd405035f3" name=document method="post" id="contact-form">
-                                    <div class="input-field">
-                                        <input id="nome" type="text" class="form-control" placeholder="Nome" name="nome">
-                                    </div>
-                                    <div class="input-field">
-                                        <input id="email" type="email" class="form-control" placeholder="Email" name="email">
-                                    </div>
-                                    <button class="btn btn-default btn-submit" type="button" onclick="return validar()">Eu vou participar</button>
-                                </form>
+                                <div id="mc_embed_signup" class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay="0.3s">
 
+                                        <form action="//lemontech.us7.list-manage.com/subscribe/post?u=9ec54d7ef83a45357cce3b92e&amp;id=713801b998" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                <div id="mc_embed_signup_scroll">
+                                                <h2>Registre-se</h2>
+                                                <h3>Esse evento vai abordar o tema "Gestão de viagens corporativas"</h3>
+                                                    <br>
+                                                <div class="indicates-required"><span class="asterisk">*</span>Obrigatório</div>
+                                                <div class="mc-field-group">
+                                                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-bottom: 10px" placeholder="E-mail*";>
+                                                </div>
+                                                <div class="mc-field-group">
+                                                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="margin-bottom: 10px" placeholder="Nome*">
+                                                </div>
+                                                <div class="mc-field-group">
+                                                      <input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="margin-bottom: 10px" placeholder="Sobrenome">
+                                                </div>
+                                                <div class="mc-field-group">
+                                                    <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4" style="margin-bottom: 10px" placeholder="Empresa">
+                                                </div>
+                                                <div class="mc-field-group size1of2">
+                                                    <input type="text" name="MMERGE5" class="" value="" id="mce-MMERGE5" style="margin-bottom: 10px" placeholder="Telefone ou Celular">
+                                                </div>
+                                                <div id="mce-responses" class="clear">
+                                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                                </div>
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1840bf62ea34d62e3b775549d_003647aa7d" tabindex="-1" value=""></div>
+                                                <div class="clear"><input type="submit" value="Eu quero participar" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-submit"></div>
+
+    <!-- End MailChimp Signup Form -->
+
+                                             </div>
+                                     </form>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
-        </section>
+                             </div>
+                         </div>
+                      </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+        <!--End mc_embed_signup-->
+
+
 
     <!-- Footer -->
 
@@ -177,7 +202,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/linkedin.js"></script>
-        <script src="js/validar.js"></script>
+        <script src="js/validaMailchimp.js"></script>
     </body>
 </html>

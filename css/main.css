@@ -730,6 +730,9 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
 /*--
     call-to-action start
 --*/
+.form-group {
+    width:100%;
+}
 
 #call-to-action {
     padding: 70px 0px;
@@ -820,7 +823,7 @@ hr {
     color: rgba(237, 28, 36, 0.7);
 } 
 .form-group .input-field + .input-field {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .input-field textarea.form-control {
     height: 160px;
