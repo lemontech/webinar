@@ -118,7 +118,7 @@ a:active {
     color: #777;
 }
 
-.btn {    
+.btn {
     border-radius: 0;
 }
 
@@ -490,7 +490,7 @@ a:active {
 }
 #hero-area .block p {
     color: #fff;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: 300;
     line-height: 30px;
 }
@@ -735,13 +735,14 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
 }
 
 #call-to-action {
-    padding: 70px 0px;
+    padding: 170px 0px;
     background: url(../images/call-to-action.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border-top: 1px solid #eee;
-    color: #fff;
+    border-top: 1px solid #FFF;
+    color: #FFF;
+    text-shadow: #000 2px 3px 2px;
 }
 
 #call-to-action .block h2 {
@@ -752,9 +753,10 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
   text-transform: uppercase;
 }
 #call-to-action .block p {
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 30px;
-    color: #9F9F9F;
+    color: #fff;
+    text-shadow: #000 2px 3px 2px;
 }
 #call-to-action .block input {
     width: 40%;
@@ -821,7 +823,7 @@ hr {
 
 .input-field label {
     color: rgba(237, 28, 36, 0.7);
-} 
+}
 .form-group .input-field + .input-field {
     margin-top: 30px;
 }
