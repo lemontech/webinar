@@ -752,7 +752,7 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
   line-height: 1.5;
   text-transform: uppercase;
 }
-#call-to-action .block p {
+#call-to-action .block h3 {
     font-size: 20px;
     padding-right: 30px;
     color: #fff;
